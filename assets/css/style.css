@@ -8,10 +8,19 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Added nav class so navigation bar can still be display inlined */
+
 nav {
     display: inline-block;
   }
-  
+
+  /* Added scroll-behavior for better user experience */
+
+  a {
+    scroll-behavior: auto;
+  }
+
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
